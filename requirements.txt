@@ -1,0 +1,3 @@
+python-dotenv==0.7.1
+tweepy==3.5.0
+git+https://github.com/python-gitlab/python-gitlab.git@0cbd9c6104970660277aed7c9add33bc5289c367
