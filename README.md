@@ -1,0 +1,2 @@
+# github_activities_tweeter
+githubのactivitiyをtweetします
