@@ -84,9 +84,9 @@ def main():
     twitter = Twitter()
     author = twitter.api.me().screen_name
     data['author'] = author
-    text = "%(author)s さんの %(date)s のGitlabでの活動は %(events_count)s 件でした。\n" + \
-    "コミット数 %(commits_count)s\n" + \
-    "#gitlab_activities_tweeter" % data
+    text = ("%(author)s さんの %(date)s のGitlabでの活動は %(events_count)s 件でした。\n" % data) + \
+    ("コミット数 %(commits_count)s\n" % data) + \
+    "#gitlab_activities_tweeter"
     twitter.notify(text)
 
 if __name__ == '__main__':
