@@ -1,2 +1,2 @@
-# github_activities_tweeter
-githubのactivitiyをtweetします
+# gitlab_activities_tweeter
+gitlabのactivitiyをtweetします
