@@ -76,7 +76,6 @@ class Gitlab(object):
         return commit_count
 
 def main():
-    data = {}
     gl = Gitlab()
     data = gl.analyzeEvents()
     target_day = datetime.date.today() - datetime.timedelta(days=1)
